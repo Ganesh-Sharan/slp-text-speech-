@@ -43,7 +43,7 @@ def text_to_speech(text, language='en'):
 
 # Create a Streamlit app interface
 def home():
-    st.write("""
+    <style>
     @keyframes slide {
         0% { background-position-x: 0%; }
         100% { background-position-x: 100%; }
